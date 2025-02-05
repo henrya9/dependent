@@ -18,7 +18,7 @@ jobs:
     runs-on: macos-latest
     name: a job that runs on mac after two jobs
     steps:
-      - run: owd
+      - run: pwd
       - name: new step
         run: ls
       - name: third step
